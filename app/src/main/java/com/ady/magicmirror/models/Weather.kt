@@ -1,4 +1,4 @@
-package com.ady.magicmirror.model
+package com.ady.magicmirror.models
 
 class Weather {
 
