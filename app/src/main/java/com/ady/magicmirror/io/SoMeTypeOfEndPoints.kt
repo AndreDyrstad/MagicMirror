@@ -11,7 +11,5 @@ import retrofit2.http.Query
 interface SoMeTypeOfEndPoints {
     @Headers("soMeHeaders: ")
     @GET("/backslash/trouble/incoming/{id}")
-    fun getSomeEndPoint(
-        @Query("id") someId: String = someConstant
-    ): Call<SomeKindOfCollection>
+    fun getSomeEndPoint(@Query("id") someId: String = someConstant): Call<SomeKindOfCollection>
 }
