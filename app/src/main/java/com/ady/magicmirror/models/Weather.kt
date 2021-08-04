@@ -17,13 +17,16 @@ class Weather {
 
     data class Data(
         val instant: Instant,
-        val next_12_hours: Summary,
-        val next_1_hours: Summary,
-        val next_6_hours: Summary
+        val next_1_hours: A?,
+
     )
 
     data class Instant(
         val details: Details
+    )
+
+    data class A(
+        val summary: Summary?
     )
 
     data class Details(
@@ -36,6 +39,6 @@ class Weather {
     )
 
     data class Summary(
-        val symbol_code: String
+        val symbol_code: String?
     )
 }
