@@ -5,7 +5,7 @@
     <data>
         <variable
             name="vm"
-            type="com.ady.magicmirror.viewmodels.SoMeViewModel" />
+            type="com.ady.magicmirror.viewmodels.WeatherViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

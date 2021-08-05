@@ -1,15 +1,6 @@
 package com.ady.magicmirror.util
 
-import android.content.Context
-import com.ady.magicmirror.model.Weather
-import com.android.volley.AuthFailureError
-import com.android.volley.Response
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
-import com.google.gson.Gson
-import java.util.function.Supplier
-
-class APIService {
+/*class APIService {
 
     inline fun <reified T> get(context: Context?, supplier: Supplier<T>): T? {
         var res: T? = null
@@ -36,4 +27,4 @@ class APIService {
         queue.add(getRequest)
         return res
     }
-}
+}*/

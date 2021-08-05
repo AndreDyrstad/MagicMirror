@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.ady.magicmirror.R
 import com.ady.magicmirror.databinding.WeatherFragmentBinding
-import com.ady.magicmirror.viewmodels.SoMeViewModel
+import com.ady.magicmirror.viewmodels.WeatherViewModel
 
 
 class WeatherFragment : Fragment() {
 
-    private val soMeViewModel: SoMeViewModel by activityViewModels()
+    private val soMeViewModel: WeatherViewModel by activityViewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         return DataBindingUtil.inflate<WeatherFragmentBinding>(inflater, R.layout.weather_fragment, container, false)
